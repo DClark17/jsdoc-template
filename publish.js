@@ -353,12 +353,12 @@ function buildNav(members) {
   var seen = {};
   // var seenTutorials = {};
 
-  nav += buildMemberNav(members.classes, 'Classes', seen, linkto);
+  // nav += buildMemberNav(members.classes, 'Classes', seen, linkto);
   nav += buildMemberNav(members.modules, 'Modules', {}, linkto);
   // TODO: as needed, comment back in later
   // nav += buildMemberNav(members.externals, 'Externals', seen, linktoExternal);
   // nav += buildMemberNav(members.events, 'Events', seen, linkto);
-  nav += buildMemberNav(members.namespaces, 'Namespaces', seen, linkto);
+  // nav += buildMemberNav(members.namespaces, 'Namespaces', seen, linkto);
   // nav += buildMemberNav(members.mixins, 'Mixins', seen, linkto);
   // nav += buildMemberNav(members.tutorials, 'Tutorials', seenTutorials, linktoTutorial);
   // nav += buildMemberNav(members.interfaces, 'Interfaces', seen, linkto);
